@@ -1,0 +1,76 @@
+.post_detail_wrapper{
+    position: relative;
+}
+
+.post_detail_main{
+    top:80px;
+    margin-left: 15%;
+    height: 100%;
+    margin-right: 10%; 
+    margin-bottom: 10%;
+}
+
+.post_detail_main_payment_wrapper {
+    display:flex;
+    flex-direction: row;
+}
+
+.post_detail_detail{
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+.post_detail_title{
+    font-weight: 800;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.post_detail_subtitle{
+    font-size: 28px;
+    text-align: left;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.guide_wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.guide_image{
+    width: 20px;
+    height: 20px;
+}
+
+.guide_wrapper p{
+    margin-left: 7px;
+}
+
+.FAQ_header{
+    text-align: left;
+}
+
+.FAQ_accordion{
+    margin-bottom: 30px;
+}
+
+.right_payment{
+    position: sticky;
+    top: 100px;
+    width: 50%;
+    margin-right:10%;
+    height: 450px;
+    padding: 32px;
+    border: none; 
+    box-shadow: rgba(93,97, 112,0.21) 5px 10px 30px 0px;
+}
+
+
+.bottom_footer{
+    width:100%;
+    height: 300px;
+    position:absolute;
+    background-color: #F7F7F3;
+}
