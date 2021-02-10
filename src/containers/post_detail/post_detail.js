@@ -10,6 +10,7 @@ class Post_detail extends Component {
         return <div className="post_detail_wrapper">
             <Navbar></Navbar>
             <div className="post_detail_main_payment_wrapper">
+            <RightPayment/>
             <div className="post_detail_main">
                 <h1 className="post_detail_title">[투자하는 마음]은 개인투자자로서 주식 시장에 뛰어든 우리들을 위한 클럽입니다.</h1>
                 <p className="post_detail_detail">[투자하는 마음]에서 우리는 직접 투자해본 경험을 나눕니다. 왜 이 종목을 선택했는지, 어떤 예측이 어떻게 빗나갔는지, 자료는 어디서 수집했는지, 그래서 수익률은 어떤지 등등. 케이스 스터디보다 실전적인 공부는 없습니다. <br/> <br/>
@@ -78,8 +79,8 @@ class Post_detail extends Component {
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
-            </div>
-            <RightPayment/>
+                <button className="more_button">더보기</button>
+                </div>
             </div>
             <div className="bottom_footer"></div> 
         </div> 

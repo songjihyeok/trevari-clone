@@ -3,16 +3,16 @@
 }
 
 .post_detail_main{
-    top:80px;
     margin-left: 15%;
     height: 100%;
-    margin-right: 10%; 
+    width: 40%; 
     margin-bottom: 10%;
 }
 
 .post_detail_main_payment_wrapper {
-    display:flex;
-    flex-direction: row;
+    display: inline-block;
+    /* display:flex;
+    flex-direction: row; */
 }
 
 .post_detail_detail{
@@ -59,8 +59,10 @@
 .right_payment{
     position: sticky;
     top: 100px;
-    width: 50%;
-    margin-right:10%;
+    margin-left: 5%;
+    width: 350px;
+    float:right;
+    margin-right:15%;
     height: 450px;
     padding: 32px;
     border: none; 
@@ -73,4 +75,11 @@
     height: 300px;
     position:absolute;
     background-color: #F7F7F3;
+}
+
+.more_button {
+    border:none;
+    background-color: white;
+    color: #ff8400;
+    cursor: pointer;
 }
