@@ -83,6 +83,10 @@ class LoginMain extends Component {
         this.setState( { controls: updatedControls } );
     }
 
+    Sign_up_handler=()=>{
+        return this.props.history.push("/signup")
+    }
+
     render(){
         const formElementsArray = [];
         for ( let key in this.state.controls ) {
@@ -115,7 +119,7 @@ class LoginMain extends Component {
                             <button className="button login_button">로그인</button>
                         </form>
                         <div className="ask_member">아직 트레바리 회원이 아니신가요?</div>
-                        <div className="go_to_signup">트레바리 가입하기</div>
+                        <div className="go_to_signup" onClick={this.Sign_up_handler}>트레바리 가입하기</div>
                         <div className="border"></div>
                         <div className="find_email_password">
                             <div className="find_email">이메일 찾기</div>
