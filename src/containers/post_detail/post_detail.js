@@ -3,6 +3,7 @@ import "./post_detail.css"
 import Navbar from '../../components/NavigationBar/navigationbar'
 import {Accordion, Card, Button} from 'react-bootstrap'
 import RightPayment from '../../components/right_payment/right_payment'
+import Footer from '../../components/footer/footer'
 
 class Post_detail extends Component {
 
@@ -82,7 +83,7 @@ class Post_detail extends Component {
                 <button className="more_button">더보기</button>
                 </div>
             </div>
-            <div className="bottom_footer"></div> 
+            <Footer></Footer>
         </div> 
     }
 }

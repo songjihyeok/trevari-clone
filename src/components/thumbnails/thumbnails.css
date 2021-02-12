@@ -1,4 +1,8 @@
 
 .thumbnails_wrapper{
-    margin: 49px 20%;
+    margin-top: 50px;
+    margin-left: calc(49% - 432px);
+    margin-right: calc(47% - 432px);
+    margin-bottom: 50px;
+    height : 2500px;
 }

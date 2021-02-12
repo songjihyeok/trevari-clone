@@ -69,14 +69,6 @@
     box-shadow: rgba(93,97, 112,0.21) 5px 10px 30px 0px;
 }
 
-
-.bottom_footer{
-    width:100%;
-    height: 300px;
-    position:absolute;
-    background-color: #F7F7F3;
-}
-
 .more_button {
     border:none;
     background-color: white;

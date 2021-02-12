@@ -3,6 +3,7 @@ import Navbar from '../../components/NavigationBar/navigationbar'
 import SlideShow from '../../components/slideshow/slideshow'
 import './main.css'
 import Thumbnails from '../../components/thumbnails/thumbnails'
+import Footer from '../../components/footer/footer'
 class Main extends Component {
 
     thumbnailHandler=()=>{
@@ -19,6 +20,7 @@ class Main extends Component {
                 <SlideShow></SlideShow>
             </div>
             <Thumbnails onClick={this.thumbnailHandler}></Thumbnails>
+            <Footer/>
         </div>
     }
 }

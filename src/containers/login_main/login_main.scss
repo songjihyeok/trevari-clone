@@ -1,0 +1,88 @@
+.login_main_wrapper{
+    height: 100vh;
+    .login_main_form{
+        height: calc(100% - 306px);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .login{
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 50px;
+        }
+        .kakao_login{
+            background: rgb(247, 227, 23);
+            border: 1px solid rgb(247, 227, 23);
+            color: rgb(60, 30, 30);
+            font-size: 14px;
+            height: 48px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form_wrapper{
+            max-width: 300px;
+            width:100%;
+            padding: 40px 0;
+        }
+        img{
+            width: 20px;
+            margin-right: 12px;
+        }
+        .border{
+            margin: 25px 0;
+        }
+        input{
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #4e4e4e;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .15rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .Input{
+            padding-bottom: 10px;
+        }
+        .login_button{
+            font-size: 14px;
+            height: 48px;
+            width: 100%;
+            cursor: pointer;
+            font-weight: 800;
+            color: white;
+        }
+        .ask_member{
+            margin-top: 10px;
+            text-align: right;
+            font-size: 14px;
+        }
+        .go_to_signup{
+            text-align: right;
+            text-decoration: underline;
+            color: #FF6600; 
+            margin-top: 5px;
+        }
+        .find_email_password{
+            display: flex; 
+            justify-content: center;
+        }
+        .find_email{
+            display: inline-block; 
+            margin-right: 10px;
+            text-decoration: underline;
+        }
+        .find_password{
+            display: inline-block; 
+            margin-left: 10px;
+            text-decoration: underline;
+        }
+    }
+}
+
